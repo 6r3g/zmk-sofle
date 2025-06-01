@@ -81,11 +81,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans          &trans                &trans                 &trans           &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp CARET       &kp LESS_THAN         &kp GREATER_THAN       &kp DOLLAR       &kp PERCENT    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp EQUAL      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp TILDE       &kp LBKT              &kp RBKT               &kp UNDER        &kp HASH       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans                &trans                 &trans           &trans         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans          &trans                &trans                 &trans           &trans         &trans  &trans         &trans         &trans         &trans     &trans             &trans
+&trans  &kp CARET       &kp LESS_THAN         &kp GREATER_THAN       &kp DOLLAR       &kp PERCENT    &trans  &kp AT         &kp AMPERSAND  &kp STAR       &kp APOS   &kp GRAVE          &trans
+&trans  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp EQUAL      &trans  &kp BACKSLASH  &kp PLUS       &kp MINUS      &kp SLASH  &kp DOUBLE_QUOTES  &trans
+&trans  &kp TILDE       &kp LBKT              &kp RBKT               &kp UNDER        &kp HASH       &trans  &kp PIPE       &kp EXCL       &kp SEMICOLON  &kp COLON  &kp QUESTION       &trans
+&trans  &trans          &trans                &trans                 &trans           &trans         &trans  &trans         &trans         &trans         &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;
